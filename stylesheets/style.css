@@ -1,0 +1,53 @@
+/*Universal Styling*/
+a {
+    color: #cccccc !important; 
+    display: inline-block;
+    padding: 0 5px 0 5px; 
+}
+
+.studentName {
+    color: white;
+}
+
+.centerNavItem {
+    border-left: solid #cccccc 1px;
+    border-right: solid #cccccc 1px;
+}
+
+@media (max-width: 767.98px) { 
+.studentName {
+    background-color: #7ac7c3;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.navbar-items {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+} /*End of media query for max 767.98 (small screen or less*/
+
+/*Media Query for screen size min 768 (md and large screens*/
+@media (min-width: 768px) {
+    .studentName {
+        width: 250px;
+        background-color: #7ac7c3;
+        display: inline-block;
+        padding: 5px 5px 5px 25px;
+        margin-left: 10%;
+    }
+
+.centerNavItem {
+    padding: 0px 5px 0 5px;
+    margin-top: 10px;
+}
+
+.navbar-items {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+}
