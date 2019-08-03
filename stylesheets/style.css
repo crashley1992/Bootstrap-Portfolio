@@ -13,6 +13,10 @@ a {
   padding: 0 5px 0 5px;
 }
 
+a:hover {
+  color: blue !important;
+}
+
 .studentName {
   color: white;
 }
