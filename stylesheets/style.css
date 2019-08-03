@@ -28,6 +28,7 @@ a {
     width: 100%;
     text-align: center;
     color: white;
+    padding: 5px 5px 5px 5px;
   }
 
   .navbar-items {
@@ -37,7 +38,6 @@ a {
   }
 }
 
-/*End of media query for max 767.98 (small screen or less) heading and Navbar*/
 /*Media Query for screen size min 768 (md and large screens heading and Navbar*/
 @media (min-width: 768px) {
   .studentName {
